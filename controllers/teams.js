@@ -18,7 +18,7 @@ const saveNewTeam = (request, response) => {
     return response.status(400).send('The following fields are required: id, location, mascot, abbreviation, conference, division')
   }
 
-  const newTeam = { name, realname, firstappearance, slug }
+  const newTeam = { id, location, mascot, abbreviation, conference, division }
 
   teams.push(newTeam)
 
