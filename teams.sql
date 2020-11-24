@@ -1,5 +1,8 @@
 drop database teams;
 CREATE DATABASE teams;
+CREATE USER 'teams'@'localhost' IDENTIFIED WITH mysql_native_password BY 'team$';
+
+GRANT ALL ON teams.* TO 'teams'@'localhost';
 
 USE teams;
 
