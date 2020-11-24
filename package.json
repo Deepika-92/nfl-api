@@ -1,0 +1,27 @@
+{
+  "name": "nfl-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "eslint": "node_modules/.bin/eslint --format codeframe .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepika-92/nfl-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deepika-92/nfl-api/issues"
+  },
+  "homepage": "https://github.com/Deepika-92/nfl-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "eslint": "^7.13.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
